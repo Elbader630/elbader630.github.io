@@ -1,0 +1,17 @@
+
+:root{
+  --bg:#f8f9fa;
+  --text:#212529;
+  --primary:#0a58ca;
+  --card:#ffffff;
+}
+body{background:var(--bg);color:var(--text);}
+.header-bg{background:var(--primary);color:#fff}
+.card{background:var(--card)}
+.theme-red{--primary:#c82333}
+.theme-blue{--primary:#0a58ca}
+.theme-dark{--bg:#0b1220;--text:#e9eef8;--primary:#0d6efd;--card:#0f1724}
+.profile-img{width:160px;height:160px;object-fit:cover;border-radius:50%;border:6px solid rgba(255,255,255,0.12);}
+.navbar .nav-link.active{font-weight:600;}
+.footer{padding:20px 0;text-align:center;color:var(--text);opacity:0.8}
+.theme-switcher .btn{margin-right:8px}
